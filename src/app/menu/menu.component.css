@@ -1,0 +1,29 @@
+#navb {
+    background-color: rgb(90, 0, 0);
+}
+
+#sair {
+    font-size: 15pt;
+}
+
+#sair:hover {
+    font-size: 140%;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.fa {
+    color: white;
+    font-size: 15pt;
+    transition: .1s;
+}
+
+.fa:hover {
+    font-size: 140%;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+}

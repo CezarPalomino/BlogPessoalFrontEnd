@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+#fontes{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(63, 0, 0)
+}
+
+.form-group {
+    font-weight: 500;
+}
+
+.btn-outline-dark:hover {
+    background-color: rgb(34, 0, 0);
+    color: white;
+}
+
+#img-bg {
+    background-image:url(https://mcdn.wallpapersafari.com/medium/36/16/5dG8lf.jpg);
+    height: 100vh; /* pega o tamanho da tela toda no height */
+    width: 100vh;
+    background-repeat: no-repeat; /* n repete pra caber em toda a tela*/
+     /* ficará contida no meio */
+    background-position: center;
+    background-color: #0a0a0a;
+}
+
+#cadastre {
+    color: rgb(155, 5, 5);
+}

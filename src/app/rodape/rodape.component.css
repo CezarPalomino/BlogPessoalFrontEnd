@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+.fa {
+    color: rgb(92, 0, 0);
+    font-size: 35pt;
+    transition: .4s;
+}
+
+.fa:hover {
+    color: black;
+    font-size: 320%;
+}
+
+#fonteRodape {
+    font-family: 'Oswald', sans-serif;
+}
