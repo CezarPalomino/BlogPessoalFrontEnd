@@ -28,12 +28,6 @@ export class LogarComponent implements OnInit {
       environment.id = this.usuarioLogin.id
       environment.tipo = this.usuarioLogin.tipo
 
-      console.log(environment.token)
-      console.log(environment.foto)
-      console.log(environment.nome)
-      console.log(environment.id)
-      console.log(environment.tipo)
-
       this.router.navigate(['/inicio'])
     }, erro =>{
       if (erro.status == 401){
